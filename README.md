@@ -1,4 +1,5 @@
 # Lucaspbastos Cask
+My personal Tap for casks I use that aren't available on Homebrew's cask Tap.
 
 ## How do I install these formulae?
 
