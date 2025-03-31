@@ -12,4 +12,9 @@ cask "touche" do
   app "Touché.app"
 
   uninstall delete: "/Applications/Touché"
+
+  zap trash: [
+    "~/Library/Application Scripts/com.red-sweater.touche",
+    "~/Library/Containers/com.red-sweater.touche",
+  ]
 end
