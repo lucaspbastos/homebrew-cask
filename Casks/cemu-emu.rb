@@ -19,7 +19,8 @@ cask "cemu-emu" do
 
   zap trash: [
     "~/Library/Application Support/Cemu",
-    "~/Library/Preferences/com.cemu.Cemu.plist",
+    "~/Library/Caches/Cemu",
+    "~/Library/Preferences/info.cemu.Cemu.plist",
     "~/Library/Saved Application State/info.cemu.Cemu.savedState",
   ]
 end
